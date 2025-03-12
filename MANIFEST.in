@@ -1,0 +1,30 @@
+recursive-include * *.html
+recursive-include * *.jinja2
+recursive-include * *.j2
+recursive-include * *.js
+recursive-include * *.json
+
+
+exclude web_test/*
+exclude tests/*
+exclude .gitignore
+exclude .gitattributes
+exclude .travis.yml
+exclude .coveragerc
+exclude .editorconfig
+exclude .readthedocs.yml
+exclude .pylintrc
+exclude .pyup.yml
+exclude .pre-commit-config.yaml
+exclude .github/*
+exclude .gitlab-ci.yml
+exclude .git/*
+exclude .idea/*
+exclude .vscode/*
+exclude .pytest_cache/*
+exclude .tox/*
+exclude .mypy_cache/*
+exclude .venv/*
+exclude .eggs/*
+exclude .cache/*
+exclude venv/*

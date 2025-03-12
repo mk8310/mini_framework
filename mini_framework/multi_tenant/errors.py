@@ -1,0 +1,2 @@
+class TenantNotFoundError(ValueError):
+    pass
